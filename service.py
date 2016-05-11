@@ -50,7 +50,6 @@ def cutVideo(id, cut, path, duration):
 	path=rep.replace("\\","/")
 	html=head(html)
 	html=body(html,getSubdir(path+"Processed"),path,getVideos(path))
-	writeHtml(html)
 	return html
 
 
